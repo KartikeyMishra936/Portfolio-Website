@@ -1,0 +1,437 @@
+*{
+    margin:  0;
+    padding: 0;
+    
+}
+body{
+    background-color:#170d39;
+    color:white;
+    font-family: "Playwrite AU SA", serif;
+
+}
+nav{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    height: 80px;
+    background-color: #190c48;
+}
+nav ul{
+    display: flex;
+justify-content: center;
+}
+nav ul li{
+   list-style: none;
+   margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:indianred;
+    font-size: 1.15rem;
+}
+main{
+    height: auto;
+}
+main hr{
+    border: 0;
+    background: #755bd4;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.left{
+    font-size: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0;
+}
+.firstsection > div{
+    width: 30%;
+
+}
+.leftsection{
+    font-size:2rem;
+
+}
+.rightsection img  {
+    
+    transition: 1s ease;
+    margin-top: 20px;
+}
+.rightsection img:hover  {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.purple{
+    color: #755bd4;
+}
+
+#element{
+    color: #755bd4;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height:80vh;
+}
+.secondsection h1{
+    font-size: 2rem;
+   text-align: center;
+}
+.secondsection h1 .me{
+    font-size: 2.5rem;
+    text-align: center;
+   align-items: center;
+}
+.about{
+    font-size: 1.5rem;
+color: #baade4;
+   
+}
+.secondsection h2{
+    font-size: 2rem;
+   text-align: center;
+}
+ .link{
+    margin-inline: calc(200px);
+ justify-content: center;
+ text-align: left;
+  margin-left: 0;
+  margin-top: 30px;
+  
+}
+.git1{
+height: 150px;
+display: inline;
+margin-left: 50px;
+border-style: solid;
+ border-color:#527bd3;
+
+}
+.p1{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+  margin-left: 50PX;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.p1:hover{
+    transition: 1s ease;
+    animation: blink 1s infinite;
+    font-size: 1rem;
+}
+.git2{
+    height: 150px;
+    display: inline;
+ margin-left: 400PX;
+ border-style:  solid;
+ border-color: #b2a3e3;
+ width: 240px;
+    }
+    .p2{
+        display: flex;
+        color: white;
+        text-decoration: none;
+        margin-left: 800px;
+       
+    }
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+    
+        50% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    .p2:hover{
+        transition: 1s ease;
+        animation: blink 1s infinite;
+        font-size: 1rem;
+    }
+    
+.secondsection h2{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.skill{
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 2px;
+   padding-bottom: 5px;
+   image-resolution: 5px;
+   vertical-align: middle;
+   display: flex;
+}   
+.html{
+    background-color: white;
+   padding: 20px;
+   border-radius: 25px;
+   height:10px;
+   width: 120px;
+   display:flex ;
+   align-items: center;
+   
+}
+
+.name1{
+    color: black;
+}
+.name2{
+    color: black;
+}
+.css{
+    background-color: white;
+   padding: 20px;
+   border-radius: 25px;
+   height:10px;
+   width: 120px;
+   flex-direction: row;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+}
+ .secondsection.html{
+    height: 20px;
+
+}
+.secondsection.css{
+    height: 20px;
+}
+.secondsection h2{
+    font-size: 2rem;
+   text-align: center;
+}
+.cert{
+    text-align: center;
+    color:#baade4;
+    font-size: 1.5rem;
+}
+
+.secondsection .box{
+   
+    margin: 56px 0;
+    display: flex;
+    margin-inline-start: 150px;
+}
+.secondsection .vertical{
+   margin-top: 50px;
+   
+    
+    margin: 0 100px;
+}
+.imagetop{
+    width: 300px;
+    height: 200px;
+position: relative;
+top: -32px;
+left: -9px;
+}
+.imagetop1{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+#contact{
+    width: 100%;
+    height: auto;
+    background-color: #1b1b32;
+}
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 40px 'Oswald', sans-serif;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: "Playwrite AU SA",serif;
+}
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+}
+.form-horizontal {
+    width: 500px;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+.form-control, textarea {
+    width: -webkit-fill-available;
+    background-color: #ffffff;
+    color: #232323;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 2px solid #ffd43b;
+}
+.form-control, textarea {
+    width: -webkit-fill-available;
+    background-color: #ffffff;
+    color: #232323;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 2px solid #ffd43b;
+}
+.send-button {
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+    background-color: #0b0a1e;
+    align-items: center;
+    display: inherit;
+}
+
+
+.send-text {
+    display: block;
+    margin-top: 1px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+.direct {
+    max-width: 400px;
+    display: block;
+   
+}
+.contact-list {
+    list-style-type: none;
+    margin-inline-start: 400px;
+}
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+}
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+.contact-list li {
+    font-size: 20px;
+}
+.place {
+    margin-left: 62px;
+    
+    
+}
+.gmail {
+    margin-left: 53px;
+  
+}
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+    font-family: "serif";
+    margin-inline-start: 85px;
+}
+.contact-textplace{
+display: flex;
+margin-inline-start: 137px;
+font-family: "serif";
+}
+.contact-textplace a{
+    color: #bbb;
+    text-decoration: none;
+    }
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+   width: 500px;
+}
+.copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.social{
+    width: auto;
+   justify-content: center;
+   margin-inline-start: 430px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-instagram {
+    background:#e4525c;
+    color: white;
+    background: transparent;
+  }
+  .fa-linkedin {
+    background: #527bd3;
+    color: white;
+    background: transparent;
+  }
+  .fa-github {
+    background: #212631;
+    color: white;
+    background: transparent;
+  }
+  
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    background: transparent;
+  }
